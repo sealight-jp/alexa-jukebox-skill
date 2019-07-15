@@ -1,0 +1,293 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "私のジュークボックス",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ShuffleOffIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ShuffleOnIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CountIntent",
+                    "slots": [],
+                    "samples": [
+                        "何番か教えて",
+                        "何曲目か教えて",
+                        "何番目か教えて",
+                        "今何番か教えて",
+                        "今何曲目か教えて",
+                        "今何番目か教えて",
+                        "何番",
+                        "何曲目",
+                        "何番目",
+                        "今何番",
+                        "今何曲目",
+                        "今何番目"
+                    ]
+                },
+                {
+                    "name": "DirectIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "category",
+                            "type": "CATEGORY"
+                        }
+                    ],
+                    "samples": [
+                        "{category} の {number} 番にして",
+                        "{category} の {number} 番をかけて",
+                        "{category} の {number} 番を流して",
+                        "{category} の {number} 番を再生して",
+                        "{category} の {number} 番をお願い",
+                        "{category} の {number} 番かけて",
+                        "{category} の {number} 番流して",
+                        "{category} の {number} 番再生して",
+                        "{category} の {number} 番お願い",
+                        "{category} の {number} 曲目にして",
+                        "{category} の {number} 曲目をかけて",
+                        "{category} の {number} 曲目を流して",
+                        "{category} の {number} 曲目を再生して",
+                        "{category} の {number} 曲目をお願い",
+                        "{category} の {number} 曲目かけて",
+                        "{category} の {number} 曲目流して",
+                        "{category} の {number} 曲目再生して",
+                        "{category} の {number} 曲目お願い",
+                        "{category} の {number} 番目にして",
+                        "{category} の {number} 番目をかけて",
+                        "{category} の {number} 番目を流して",
+                        "{category} の {number} 番目を再生して",
+                        "{category} の {number} 番目をお願い",
+                        "{category} の {number} 番目かけて",
+                        "{category} の {number} 番目流して",
+                        "{category} の {number} 番目再生して",
+                        "{category} の {number} 番目お願い"
+                    ]
+                },
+                {
+                    "name": "CategoryIntent",
+                    "slots": [
+                        {
+                            "name": "category",
+                            "type": "CATEGORY"
+                        }
+                    ],
+                    "samples": [
+                        "{category} にして",
+                        "{category} をかけて",
+                        "{category} を流して",
+                        "{category} を再生して",
+                        "{category} をお願い",
+                        "{category} かけて",
+                        "{category} 流して",
+                        "{category} 再生して",
+                        "{category} お願い",
+                        "{category} の曲にして",
+                        "{category} の曲をかけて",
+                        "{category} の曲を流して",
+                        "{category} の曲を再生して",
+                        "{category} の曲をお願い",
+                        "{category} の曲かけて",
+                        "{category} の曲流して",
+                        "{category} の曲再生して",
+                        "{category} の曲お願い",
+                        "{category} の音楽にして",
+                        "{category} の音楽をかけて",
+                        "{category} の音楽を流して",
+                        "{category} の音楽を再生して",
+                        "{category} の音楽をお願い",
+                        "{category} の音楽かけて",
+                        "{category} の音楽流して",
+                        "{category} の音楽再生して",
+                        "{category} の音楽お願い"
+                    ]
+                },
+                {
+                    "name": "NumberIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{number} 番にして",
+                        "{number} 番をかけて",
+                        "{number} 番を流して",
+                        "{number} 番を再生して",
+                        "{number} 番をお願い",
+                        "{number} 番かけて",
+                        "{number} 番流して",
+                        "{number} 番再生して",
+                        "{number} 番お願い",
+                        "{number} 曲目にして",
+                        "{number} 曲目をかけて",
+                        "{number} 曲目を流して",
+                        "{number} 曲目を再生して",
+                        "{number} 曲目をお願い",
+                        "{number} 曲目かけて",
+                        "{number} 曲目流して",
+                        "{number} 曲目再生して",
+                        "{number} 曲目お願い",
+                        "{number} 番目にして",
+                        "{number} 番目をかけて",
+                        "{number} 番目を流して",
+                        "{number} 番目を再生して",
+                        "{number} 番目をお願い",
+                        "{number} 番目かけて",
+                        "{number} 番目流して",
+                        "{number} 番目再生して",
+                        "{number} 番目お願い"
+                    ]
+                },
+                {
+                    "name": "ForwardIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{number} 進めて",
+                        "{number} 番進めて",
+                        "{number} 曲進めて",
+                        "{number} 個進めて",
+                        "{number} 飛ばして",
+                        "{number} 番飛ばして",
+                        "{number} 曲飛ばして",
+                        "{number} 個飛ばして",
+                        "{number} 送って",
+                        "{number} 番送って",
+                        "{number} 曲送って",
+                        "{number} 個送って",
+                        "{number} スキップして",
+                        "{number} 番スキップして",
+                        "{number} 曲スキップして",
+                        "{number} 個スキップして"
+                    ]
+                },
+                {
+                    "name": "BackwardIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{number} 戻して",
+                        "{number} 番戻して",
+                        "{number} 曲戻して",
+                        "{number} 個戻して"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "CATEGORY",
+                    "values": [
+                        {
+                            "id": "all",
+                            "name": {
+                                "value": "オール",
+                                "synonyms": [
+                                    "全曲",
+                                    "全部"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "JPOP",
+                            "name": {
+                                "value": "ジェイポップ",
+                                "synonyms": [
+                                    "ポップス"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "WMUSIC",
+                            "name": {
+                                "value": "洋楽",
+                                "synonyms": [
+                                    "ウェスタンミュージック",
+                                    "ウェスタン"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "B'z",
+                            "name": {
+                                "value": "ビーズ"
+                            }
+                        },
+                        {
+                            "id": "EXILE",
+                            "name": {
+                                "value": "エグザイル"
+                            }
+                        },
+                        {
+                            "id": "X",
+                            "name": {
+                                "value": "x",
+                                "synonyms": [
+                                    "x ジャパン"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "BEATLES",
+                            "name": {
+                                "value": "ビートルズ",
+                                "synonyms": [
+                                    "ザビートルズ"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
