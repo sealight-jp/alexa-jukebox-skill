@@ -85,6 +85,9 @@ class ResponseBuilder {
 	}
 
 	public function getResponse() {
+		if (empty($this->result['response'])) {
+			$this->result['response'] = (object) null;
+		}
 		echo json_encode($this->result);
 	}
 }
